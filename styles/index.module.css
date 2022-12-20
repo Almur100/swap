@@ -1,0 +1,21 @@
+
+.main{
+    display: flex;
+    background-color:#1b1e23 ;
+    gap:20px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    
+}
+@media screen and (max-width:768px){
+    .main{
+        flex-wrap: wrap;
+        gap: 0px;
+        height: fit-content;
+    }
+    
+}
+

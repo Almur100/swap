@@ -1,0 +1,216 @@
+
+.middlebar{
+    flex-basis: 60%;
+    margin-left: 10px;
+    
+}
+.middlebartop{
+    display: flex;
+    background-color: #131418;
+    justify-content: space-between;
+    width: 250px;
+    padding: 8px;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.middlebartopmob{
+    display: none;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.middlebartop input{
+    border: 0;
+    outline: none;
+    font-size: 10px;
+    color: white;
+    background: transparent;
+    width: 100%;
+}
+.barmiddle{
+    width: 100%;
+    height: 160px;
+    background-color: #a8bcfa;
+    border-radius: 10px;
+    margin-bottom: 30px;
+   
+}
+.barmiddle p{
+    font-size: 23px;
+    padding-top: 35px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+.pools{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pools p{
+    color:#929396;
+}
+.poolright{
+    display: flex;
+    align-items: center;
+    
+    background-color: #131418;
+    padding: 10px 15px;
+   
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+.poolright p{
+    font-size: 14px;
+    margin-right: 7px;
+    
+}
+.poolleft{
+    display: flex;
+    align-items: center;
+}
+.poolleft :first-child{
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.middlebarbottom{
+    width: 100%;
+    background-color: #131418;
+    padding: 15px;
+    box-sizing: border-box;
+   
+}
+.middlebarbottom p{
+    color: #929396;
+
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #212226 ;
+    margin-bottom: 4px;
+   
+    padding-top: 8px;
+    padding-bottom: 8px;
+   
+   
+}
+.div1left{
+    display: flex;
+    align-items: center;
+    flex-basis: 40%;
+}
+.div1left p:first-child{
+    margin-right: 7px;
+}
+.div1left p:last-child{
+    margin-left: 7px;
+}
+.div1right{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 60%;
+}
+.tokenimg{
+    margin-right: -5px;
+}
+.btn{
+    background-color: #91a7ef;
+   padding-top: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   color: black;
+   margin-bottom: 15px;
+    
+    
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+    
+}
+.mobmenu{
+    position: absolute;
+    right: 0;
+    background-color: #131418;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    z-index: 1;
+    display: none;
+    
+}
+.mobmenu p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.mobmenu :first-child{
+    float: right;
+}
+
+
+
+
+@media screen and (max-Width:768px){
+    
+    .middlebar{
+        flex-basis: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    
+    
+    .middlebartop{
+        display: none;
+    }
+    .middlebartopmob{
+        display: flex;
+        
+    }
+    .barmiddle{
+        height: 100px;
+        position: relative;
+        
+    }
+    .barmiddle p{
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .div1right{
+        font-size: 10px;
+    }
+    .div1left{
+        font-size: 10px;
+
+    }
+    .pools, .poolleft p, .poolright p{
+        font-size: 10px;
+    }
+    .mobmenu{
+        display: block;
+    }
+}
+@media screen and (max-width:320px){
+    .div1right{
+        font-size: 5px;
+    }
+    .div1left{
+        font-size: 5px;
+
+    }
+    
+    
+}
+@media screen and (max-width:1024px){
+    .middlebar{
+        font-size: 10px;
+    }
+    
+    
+}
+
+
